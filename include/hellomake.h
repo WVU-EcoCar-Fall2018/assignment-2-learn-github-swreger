@@ -1,5 +1,5 @@
-#ifndef ASSIGNMENT2_INCLUDE_HELLOMAKE_H_
-#define ASSIGNMENT2_INCLUDE_HELLOMAKE_H_
+#ifndef INCLUDE_HELLOMAKE_H_
+#define INCLUDE_HELLOMAKE_H_
 
 /*
   Copyright [2018] <Sebastian Reger>
@@ -8,4 +8,4 @@
 
 void myPrintHelloMake(void);
 
-#endif  // ASSIGNMENT2_INCLUDE_HELLOMAKE_H_
+#endif  // INCLUDE_HELLOMAKE_H_
