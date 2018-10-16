@@ -1,0 +1,6 @@
+function blkStruct = slblocks
+
+Browser.Library = 'personalFavorites';
+Browser.Name = 'My Favorites';
+
+blkStruct.Browser = Browser;

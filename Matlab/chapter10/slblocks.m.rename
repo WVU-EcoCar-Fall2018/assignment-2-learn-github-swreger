@@ -1,0 +1,13 @@
+function blkStruct = slblocks
+% slblocks.m.rename
+%
+% This file provides a template for adding a user defined library 
+% to the Simulink Library Browser
+%
+% To work, you must 
+%   1. modify the blkStruct structure with the name of your library
+%   2. rename this file to slblocks.m
+
+Browser(1).Library = 'libraryname';     %Library name (the .slx file)
+Browser(1).Name = 'My Library';         %Display name on the browser
+blkStruct.Browser = Browser;

@@ -1,0 +1,16 @@
+function sigFontChange(fontname,fontweight,fontsize)
+
+% Find all lines in a model
+all_lines = find_system(bdroot, ...
+	'FindAll', 'on', ...
+	'LookUndermasks', 'on', ...
+	'Type','Line');
+
+% Must loop since set_param does not take a vector input
+% Set each line to have the selected font properties
+for i = 1:length(all_lines)
+	set_param(all_lines(i), ...
+		'FontName',fontname, ... % l = listfonts for all possible
+		'FontWeight', fontweight, ...
+		'FontSize', fontsize);
+end
